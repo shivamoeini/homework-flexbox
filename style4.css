@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid black;
+  }
+  .navbar li a {
+    font-size: 1.2rem;
+  }
+  .container img {
+    width: 100px;
+    height: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .container .cart {
+    background-color: cadetblue;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+  }
+  .matn {
+    margin: 50px 50px 50px 50px;
+    padding: 20px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    
+  }
+  table,
+  td {
+      border: 1px solid rgb(0, 0, 0);
+  }
+table{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 90%;
+    overflow: hidden;
+}
